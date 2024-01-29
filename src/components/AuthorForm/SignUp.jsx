@@ -9,6 +9,7 @@ function SignUp() {
     e.preventDefault();
 
     const { name, email, password } = e.currentTarget.elements;
+    // console.log('Submitting:', { name: name.value, email: email.value, password: password.value });
     dispatch(
       singUpThunk({
         name: name.value,
