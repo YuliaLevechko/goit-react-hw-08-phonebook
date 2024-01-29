@@ -7,15 +7,14 @@
     transform: translate(-50%, -50%);
     flex-shrink: 0;
     border-radius: 18px;
-    border: 2px solid #111;
-    background: rgb(112, 116, 116);
+    border: 1px solid #111;
+    background: rgb(112 116 116 / 68%);
 }
 
 .form {
     display: flex;
     flex-direction: column;
-    max-width: 499px;
-    width: 100%;
+    width: 433px;
     height: 100%;
 }
 
@@ -50,19 +49,16 @@
 
 .formInput {
     -webkit-text-fill-color: #111;
-    font-family: DM Sans;
     font-size: 18px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
     letter-spacing: -0.18px;
     text-transform: uppercase;
-    padding: 20px 173px 20px 40px;
+    padding: 20px;
     border-radius: 40px;
-    border: 3px solid #111;
+    border: 1px solid #111;
     background-color: white;
+    width: 90%;
 }
-
 .btnDiv {
     display: flex;
     justify-content: center;
@@ -85,6 +81,11 @@
     align-items: flex-start;
     gap: 10px;
     border-radius: 40px;
-    background: #111;
+    background: #111111c4;
     cursor: pointer;
+    border: 1px solid gray;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .15);
+}
+.submit:hover, .submit:focus, .submit:active {
+    background-color: #58528b;
 }

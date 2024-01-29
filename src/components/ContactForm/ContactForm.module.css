@@ -1,15 +1,27 @@
 .form {
     display: flex;
     flex-direction: column;
-    margin-left: 15px;
     gap: 10px;
     margin-bottom: 15px;
 }
-
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
 .input {
     width: 300px;
     height: 30px;
     border-radius: 5px;
+    
+}
+.inpute {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 
 .label {
@@ -21,4 +33,23 @@
 .btn {
     width: 100px;
     height: 30px;
+}
+.add {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    background-color: #6b62b8;
+    box-shadow: 0 4px 4px rgba(0,0,0,.15);
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 15px;
+    transition: all,.5s;
+    width: 120px;
+}
+.add:hover, .add:focus, .add:active {
+    opacity: 1;
+    transform: scale(1.1);
+    background-color: #87aaf6;
 }

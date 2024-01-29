@@ -1,15 +1,33 @@
 .list {
     display: flex;
-    flex-direction: column;
-    margin-left: 15px;
+    justify-content: space-between;
 }
 
 .item {
     display: flex;
+    flex-direction: column;
     gap: 10px;
-    margin-top: 15px;
+    margin: 15px auto;
+    padding: 0;
+    width: 80%;
 }
 
 .itemName {
     font-weight: 500;
+}
+.delete {
+    background-color: #feaaaa;
+    border: 1px;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0,0,0,.15);
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+    transition: all .5s;
+    width: 60px;
+}
+.delete:hover, .delete:focus, .delete:active {
+    opacity: 1;
+    transform: scale(1.1);
+    background-color: #c83033;
 }
